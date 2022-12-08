@@ -1,53 +1,51 @@
-body {
-    margin:0;
-    padding: 0;
+header {
+    background-color: #bbb;
+    padding: 20px 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+.caja {
+    width: 940px;
+    position: relative;
+    margin:0 auto;
+
 }
 
-div.nosotros {
-    padding:20px;
-    background-color: #CCC;
-}
-.titulo-centralizado {
-    text-align: center;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-p {
-   
-    text-align: center;
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
 }
 
-p em strong {
-    color: #FF0000;
+nav a {
+    text-transform: uppercase;
+    color : #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-#mision {
-    font-size: 20px;
-}
-img#banner {
-    width: 100%;
-}
-
-div.diferenciales {
-    padding: 30px;
-    background-color: #fff;
+nav a:hover {
+    color : #c78c19;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
 }
 
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width:20%;
-    margin-right: 15%;
+/* footer */
+footer {
+    padding:40px;
+    text-align:center;
+    background: url("../img/bg.jpg");
 }
 
-li.items {
-    font-style: italic;
-}
-
-img.img-diferenciales{
-    width:50%;
+.copyright {
+    margin: 20px;
+    color:#fff;
+    font-size: 13px;
 }
