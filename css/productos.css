@@ -1,0 +1,69 @@
+header {
+    background-color: #bbb;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin:0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color : #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color : rgb(255, 240, 101);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    vertical-align: top;
+    margin: 0 1.2%;
+    padding: 30px 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
