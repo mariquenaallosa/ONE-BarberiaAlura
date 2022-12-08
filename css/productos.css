@@ -1,41 +1,3 @@
-header {
-    background-color: #bbb;
-    padding: 20px 0;
-}
-
-.caja {
-    width: 940px;
-    position: relative;
-    margin:0 auto;
-
-}
-
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 10px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color : #000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color : #c78c19;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: underline;
-}
-
 .productos {
     width: 940px;
     margin: 0 auto;
@@ -79,16 +41,4 @@ nav a:hover {
     font-size:20px;
     font-weight: bold;
     margin-top: 10px;
-}
-
-footer {
-    padding:40px;
-    text-align:center;
-    background: url("../img/bg.jpg");
-}
-
-.copyright {
-    margin: 20px;
-    color:#fff;
-    font-size: 13px;
 }
