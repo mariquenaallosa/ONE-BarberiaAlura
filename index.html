@@ -10,78 +10,167 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
     <header>
         <div class="caja">
-            <h1> <img src="img/logo.png" alt="Logo de la Barbería Alura"></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="productos.html">productos</a></li>
-                    <li><a href="contacto.html">contactos</a></li>
-                </ul>
-            </nav>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li class="nav-item"><a href="index.html">home</a></li>
+                        <li class="nav-item"><a href="#productos">productos</a></li>
+                        <li class="nav-item"><a href="#contacto">contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
     </header>
-    <img class="banner" src="img/banner.jpg" alt="Banner con imagen de la Barbería Alura">
+
     <main>
-        <section class="principal">
-            <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+        <section class="presentacion">
 
-            <img class="img-utencilios" src="img/utensilios[1].jpg" alt="utencilios de Barbería">
-
-            <p>
-                Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y
-                conquista nuevos clientes diariamente.
-            </p>
-
-            <p id="mision">
-                <em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em>
-            </p>
-
-            <p>
-                Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
-            </p>
-        </section>
-
-        <section class="mapa">
-            <h3 class="titulo-principal">Nuestra Ubicación</h3>
-            <p class="descripcion">
-                Nuestro establecimiento se encuentra en el corazón de la ciudad
-            <div class="mapa-contenido">
-            </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4499774664764!2d-46.634520584427456!3d-23.58818986846994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sar!4v1671155601908!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="presentacion-logo">
+                <h1><img src="img/logo-blanco.png" alt="Logo blanco"></h1>
             </div>
-
+            <h2 class="rubro-title">Barbería</h2>
+            <p class="shop-title"><span class="icon-title">&#9670</span> Alura <span class="icon-title">&#9670</span>
+            </p>
         </section>
-
         <section class="diferenciales">
-            <h3 class="titulo-principal">Diferenciales</h3>
             <div class="contenedor-diferenciales">
                 <ul class="diferenciales-lista">
-                    <li class="items">Atención personalizada a los clientes</li>
-                    <li class="items">Espacio diferenciado</li>
-                    <li class="items">Localización</li>
-                    <li class="items">Profesionales calificados</li>
-                    <li class="items">Puntualidad</li>
-                    <li class="items">Limpieza</li>
-                </ul><img class="img-diferenciales" src="img/diferenciales.jpg">
+                    <li class="items">
+                        <h4 class="items-title">Atención personalizada</h4>
+                        <span class="items-icon">&#9670</span>
+                        <p class="items-description">Queremos que en cada visita te sientas único</p>
+                    </li>
+                    <li class="items">
+                        <h4 class="items-title">Espacio diferenciado</h4>
+                        <span class="items-icon">&#9670</span>
+                        <p class="items-description">Nuestro establecimiento cuenta con todas las comodidades</p>
+                    </li>
+                    <li class="items">
+                        <h4 class="items-title">Localización</h4>
+                        <span class="items-icon">&#9670</span>
+                        <p class="items-description">Nuestro establecimiento se encuentra en el corazón de la ciudad.
+                        </p>
+                    </li>
+                    <li class="items">
+                        <h4 class="items-title">Profesionales calificados</h4>
+                        <span class="items-icon">&#9670</span>
+                        <p class="items-description">Contamos con profesionales en constante actualización</p>
+                    </li>
+                    </li>
+                </ul>
 
             </div>
-            <div class="video">
-                <iframe width="100%" height="383" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="Scissor Cut Short Back and Sides Men's Haircut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="principal">
+
+            <div class="principal-img">
+                <img class="img-utencilios" src="img/utensilios[1].jpg" alt="utencilios de Barbería">
+            </div>
+
+
+            <div class="principal-descripcion">
+                <div class="principal-text">
+                    <h2 class="titulo-principal">La Barbería</h2>
+
+                    <p>
+                        Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y
+                        conquista nuevos clientes diariamente.
+                    </p>
+                    <p id="mision">
+                        <em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros
+                                clientes"</strong>.</em>
+                    </p>
+    
+                    <p>
+                        Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento
+                        en
+                        el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento
+                        posee
+                        un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
+                    </p>
+                </div>
+
+                
             </div>
         </section>
+        <section id="productos">
+            <h2 class="titulo-principal">PRODUCTOS</h2>
+
+            <ul class="productos">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src="img/cabello.jpg" alt="Icono de Cabello">
+                    <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+                    <p class ="producto-precio">$10.00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="img/barba.jpg" alt="Icono de una Barba">
+                    <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                    <p class ="producto-precio">$8.00</p>
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="img/cabello+barba.jpg" alt="Icono de Cabello y Barba">
+                    <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                    <p class ="producto-precio">$15.00</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contacto">
+
+            <div class="contacto-mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4499774664764!2d-46.634520584427456!3d-23.58818986846994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sar!4v1671155601908!5m2!1ses-419!2sar"
+                    width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contacto-form">
+                <h2 class="titutlo-principal">
+                    Contactanos
+                </h2>
+                <form>
+                    <label for="nombreApellido"> Nombre y Apellido</label>
+                    <input type="text" name="nombreApellido" id="nombreApellido" class="input-padron" required>
         
+                    <label for="email"> Correo Electrónico </label>
+                    <input type="email" name="email" id="email" class="input-padron" placeholder="email@dominio.com" required>
+        
+                    <label for="telefono"> Teléfono </label>
+                    <input type="tel" name="telefono" id="telefono" class="input-padron" placeholder="(XX) XXXXXXXXXX" required>
+        
+                    <label for="mensaje"> Mensaje </label>
+                    <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+        
+            
+        
+        
+                    <input class="enviar" type="submit" value="Enviar formulario" name="submit" id="submit">
+        
+                </form>
+            </div>
+
+        </section>
+
+
+
     </main>
     <footer>
         <img src="img/logo-blanco.png" alt="Logo de la Barbería Alura">
-        <p class="copyright">&copy; Copyright Barbería Alura - 2022</p>
+        <p class="copyright">&copy; Copyright Barbería Alura - 2020</p>
     </footer>
 </body>
 
